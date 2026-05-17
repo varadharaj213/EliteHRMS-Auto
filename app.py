@@ -5,8 +5,8 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-USERNAME="YOUR_USERNAME"
-PASSWORD="YOUR_PASSWORD"
+USERNAME="TT00229"
+PASSWORD="2003@Seran"
 
 @app.route("/punch/<ptype>")
 def punch(ptype):
